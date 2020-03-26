@@ -2,3 +2,39 @@
 
 #showtooltip
 /cast [indoors] [combat] Cat Form;  [outdoors] Travel Form
+
+Base Macro
+
+#showtooltip
+/cast [@mouseover,help,nodead] Healing Wave; [@mouseover,harm,nodead] [harm] Lightning Bolt; Healing Wave
+
+Alt: Self Cast
+Mouseover Friend: Cast on Mouseover
+Target Friend: Cast on Target
+Target Enemy Targeting Friend: Cast on Enemy’s Target
+Default casting behavior. This condition also serves to generate the correct tooltip.
+
+#showtooltip
+/cast [mod:alt,@player] [@mouseover,help,nodead] [help] [@targettarget,help,nodead] [] SPELL
+
+Attack Mousover
+
+/cast [@mouseover,help,nodead] Healing Wave; [@mouseover,harm,nodead] [harm] Lightning Bolt; Healing Wave
+
+Druid
+
+
+Lifebloom/Moonfire
+/cast [@mouseover,help,nodead] Lifebloom; [@mouseover,harm,nodead] [harm] Moonfire(Lunar); Lifebloom
+
+Rejuvenation/Sunfire(Solar)
+/cast [@mouseover,help,nodead] Rejuvenation; [@mouseover,harm,nodead] [harm] Sunfire(Solar); Rejuvenation
+
+Regrowth/Solar Wrath(Solar)
+/cast [@mouseover,help,nodead] Regrowth; [@mouseover,harm,nodead] [harm] Solar Wrath(Solar); Regrowth
+
+Swiftmend
+/cast [@mouseover,help,nodead] Swiftmend; Swiftmend
+
+Cenarion Ward
+/cast [@mouseover,help,nodead] Cenarion Ward; Cenarion Ward
