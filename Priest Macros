@@ -10,11 +10,16 @@ PWS
 
 Penance
 #showtooltip
-/cast [@mouseover, nodead, exists][@target, nodead, exists][@player] Penance
+/cast [@mouseover,help,nodead] Penance; [@mouseover,harm,nodead] [harm] Penance; Penance
 
 Schism
 #showtooltip
-/cast [@mouseover,help] [help,nodead] [@targettarget,help,nodead] [@player] Schism
+/cast [@mouseover,help,nodead] Schism; [@mouseover,harm,nodead] [harm] Schism; Schism
+
+Shadow Word: Pain
+#showtooltip
+/cast [@mouseover,harm,nodead] [harm] Shadow Word: Pain
+
 
 Dispel Magic
 #showtooltip
