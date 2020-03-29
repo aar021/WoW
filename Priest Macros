@@ -1,0 +1,49 @@
+#showtooltip
+/cast [mod:alt,@player] [@mouseover,help,nodead] [help] [@targettarget,help,nodead] [] SPELL
+
+Discipline
+==========
+
+PWS
+#showtooltip
+/cast [@mouseover,help] [help,nodead] [@targettarget,help,nodead] [@player] Power Word: Shield
+
+Penance
+#showtooltip
+/cast [@mouseover, nodead, exists][@target, nodead, exists][@player] Penance
+
+Schism
+#showtooltip
+/cast [@mouseover,help] [help,nodead] [@targettarget,help,nodead] [@player] Schism
+
+Dispel Magic
+#showtooltip
+/cast [@mouseover,exists] Dispel Magic
+
+Smite
+#showtooltip
+/cast [@mouseover,help] [help,nodead] [@targettarget,help,nodead] [@player] Smite
+
+Holy
+====
+
+Holy Fire
+#showtooltip
+/cast [@mouseover,help] [help,nodead] [@targettarget,help,nodead] [@player] Holy Fire
+
+Holy Word: Chastise
+#showtooltip
+/cast [@mouseover,help] [help,nodead] [@targettarget,help,nodead] [@player] Holy Word: Chastise
+
+Renew
+#showtooltip
+/cast [@mouseover,help] [help,nodead] [@targettarget,help,nodead] [@player] Renew
+
+Flash Heal
+#showtooltip
+/cast [@mouseover,help] [help,nodead] [@targettarget,help,nodead] [@player] Flash Heal
+
+Holy Word: Serenity
+#showtooltip
+/cast [@mouseover,help] [help,nodead] [@targettarget,help,nodead] [@player] Holy Word: Serenity
+
