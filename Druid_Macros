@@ -25,16 +25,37 @@ Druid
 
 
 Lifebloom/Moonfire
+#showtooltip
 /cast [@mouseover,help,nodead] Lifebloom; [@mouseover,harm,nodead] [harm] Moonfire(Lunar); Lifebloom
 
 Rejuvenation/Sunfire(Solar)
+#showtooltip
 /cast [@mouseover,help,nodead] Rejuvenation; [@mouseover,harm,nodead] [harm] Sunfire(Solar); Rejuvenation
 
 Regrowth/Solar Wrath(Solar)
+#showtooltip
 /cast [@mouseover,help,nodead] Regrowth; [@mouseover,harm,nodead] [harm] Solar Wrath(Solar); Regrowth
 
 Swiftmend
+#showtooltip
 /cast [@mouseover,help,nodead] Swiftmend; Swiftmend
 
 Cenarion Ward
+#showtooltip
 /cast [@mouseover,help,nodead] Cenarion Ward; Cenarion Ward
+
+Overgrowth(PvP Talent)
+#showtooltip
+/cast [@mouseover,help,nodead] Overgrowth(PvP Talent); Overgrowth(PvP Talent)
+
+Nourish
+#showtooltip
+/cast [@mouseover,help,nodead] Nourish; Nourish
+
+Nature's Cure
+#showtooltip
+/cast [@mouseover,help,nodead] Nature's Cure; Nature's Cure
+
+Entangling Roots
+#showtooltip 
+/cast [@mouseover,harm] Entangling Roots
