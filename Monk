@@ -1,0 +1,6 @@
+Base Macro
+#showtooltip 
+/cast [@mouseover,help,nodead][]
+
+#showtooltip 
+/cast [@mouseover,harm,nodead][]
