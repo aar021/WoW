@@ -32,13 +32,20 @@ Smite
 Holy
 ====
 
+#showtooltip 
+/cast [@mouseover,help,nodead][]
+
+#showtooltip 
+/cast [@mouseover,harm,nodead][]
+
+
 Holy Fire
 #showtooltip
-/cast [@mouseover,help] [help,nodead] [@targettarget,help,nodead] [@player] Holy Fire
+/cast [@mouseover,harm,nodead][] Holy Fire
 
 Holy Word: Chastise
 #showtooltip
-/cast [@mouseover,help] [help,nodead] [@targettarget,help,nodead] [@player] Holy Word: Chastise
+/cast [@mouseover,harm,nodead][] Holy Word: Chastise
 
 Renew
 #showtooltip
