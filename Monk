@@ -4,3 +4,21 @@ Base Macro
 
 #showtooltip 
 /cast [@mouseover,harm,nodead][]
+
+#showtooltip 
+/cast [@mouseover,harm,nodead][]Crackling Jade Lightning
+
+#showtooltip Detox
+/cast [@mouseover,help,nodead] Detox;Detox
+
+#showtooltip 
+/cast [@mouseover,help,nodead][]Enveloping Mist
+
+#showtooltip 
+/cast [@mouseover,help,nodead][]Renewing Mist
+
+#showtooltip 
+/cast [@mouseover,help,nodead][]Soothing Mist
+
+#showtooltip 
+/cast [@mouseover,help,nodead][]Vivify
