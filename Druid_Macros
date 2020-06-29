@@ -59,3 +59,7 @@ Nature's Cure
 Entangling Roots
 #showtooltip 
 /cast [@mouseover,harm] Entangling Roots
+
+Soothe
+#showtooltip
+/cast [@mouseover,harm,nodead] [harm] Soothe
