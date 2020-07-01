@@ -26,3 +26,7 @@ Base Macro
 Paralysis
 #showtooltip
 /cast [@mouseover,help,nodead] Paralysis;Paralysis
+
+Life Cocoon
+#showtooltip 
+/cast [@mouseover,help,nodead][]Life Cocoon
