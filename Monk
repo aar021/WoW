@@ -22,3 +22,7 @@ Base Macro
 
 #showtooltip 
 /cast [@mouseover,help,nodead][]Vivify
+
+Paralysis
+#showtooltip
+/cast [@mouseover,help,nodead] Paralysis;Paralysis
